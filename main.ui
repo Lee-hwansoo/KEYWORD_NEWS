@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>860</width>
+    <height>486</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>KeywordNews</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../../../Desktop/newspaper.png</normaloff>../../../../Desktop/newspaper.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(237, 244, 245);</string>
+  </property>
+  <widget class="QPushButton" name="num_pushButton_1">
+   <property name="geometry">
+    <rect>
+     <x>84</x>
+     <y>181</y>
+     <width>230</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::StrongFocus</enum>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;나눔스퀘어&quot;;
+background-color: rgb(132, 190, 199);</string>
+   </property>
+   <property name="text">
+    <string>전체 (1)</string>
+   </property>
+   <property name="shortcut">
+    <string>1</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="num_pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>319</x>
+     <y>181</y>
+     <width>230</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;나눔스퀘어&quot;;
+background-color: rgb(132, 190, 199);</string>
+   </property>
+   <property name="text">
+    <string>정치 (2)</string>
+   </property>
+   <property name="shortcut">
+    <string>2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="num_pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>554</x>
+     <y>181</y>
+     <width>230</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;나눔스퀘어&quot;;
+background-color: rgb(132, 190, 199);</string>
+   </property>
+   <property name="text">
+    <string>경제 (3)</string>
+   </property>
+   <property name="shortcut">
+    <string>3</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="num_pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>84</x>
+     <y>269</y>
+     <width>230</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;나눔스퀘어&quot;;
+background-color: rgb(132, 190, 199);</string>
+   </property>
+   <property name="text">
+    <string>사회 (4)</string>
+   </property>
+   <property name="shortcut">
+    <string>4</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="num_pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>318</x>
+     <y>269</y>
+     <width>230</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;나눔스퀘어&quot;;
+background-color: rgb(132, 190, 199);</string>
+   </property>
+   <property name="text">
+    <string>국제 (5)</string>
+   </property>
+   <property name="shortcut">
+    <string>5</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="num_pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>554</x>
+     <y>269</y>
+     <width>230</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;나눔스퀘어&quot;;
+background-color: rgb(132, 190, 199);</string>
+   </property>
+   <property name="text">
+    <string>스포츠 (6)</string>
+   </property>
+   <property name="shortcut">
+    <string>6</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="num_pushButton_7">
+   <property name="geometry">
+    <rect>
+     <x>83</x>
+     <y>356</y>
+     <width>230</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;나눔스퀘어&quot;;
+background-color: rgb(132, 190, 199);</string>
+   </property>
+   <property name="text">
+    <string>문화 (7)</string>
+   </property>
+   <property name="shortcut">
+    <string>7</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="num_pushButton_8">
+   <property name="geometry">
+    <rect>
+     <x>318</x>
+     <y>357</y>
+     <width>230</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;나눔스퀘어&quot;;
+background-color: rgb(132, 190, 199);</string>
+   </property>
+   <property name="text">
+    <string>연예 (8)</string>
+   </property>
+   <property name="shortcut">
+    <string>8</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="num_pushButton_9">
+   <property name="geometry">
+    <rect>
+     <x>553</x>
+     <y>357</y>
+     <width>230</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;나눔스퀘어&quot;;
+background-color: rgb(132, 190, 199);</string>
+   </property>
+   <property name="text">
+    <string>IT (9)</string>
+   </property>
+   <property name="shortcut">
+    <string>9</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="num_pushButton_0">
+   <property name="geometry">
+    <rect>
+     <x>753</x>
+     <y>13</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="tabletTracking">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;나눔스퀘어&quot;;
+background-color: rgb(219,139,139,);</string>
+   </property>
+   <property name="text">
+    <string>종료 (0)</string>
+   </property>
+   <property name="shortcut">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_kn">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>60</y>
+     <width>771</width>
+     <height>95</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Baskerville Old Face</family>
+     <pointsize>45</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>KEYWORD NEWS</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
